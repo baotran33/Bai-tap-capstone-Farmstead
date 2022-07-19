@@ -99,17 +99,17 @@ input[type="search"]:focus {
 
 header .navbar a {
     font-size: 32px;
-    color: orange;
+    color: #fb811e;
     padding: 0px;
-    position: relative;
+    
     text-decoration: none;
     transition: 0.5s;
 }
 
 header .navbar h1 i {
     position: absolute;
-    top: 3px;
-    left: 55px;
+    top: 9px;
+    left: 50px;
     font-size: 20px;
 }
 
@@ -119,6 +119,9 @@ header .navbar h1 :hover {
 
 
 /* BANNER */
+#demo{
+    margin: 0px;
+}
 .banner1 {
     background: url("./../image/b1.jpg");
     min-height: 100vh;
@@ -162,6 +165,11 @@ header .navbar h1 :hover {
     left: 160px;
     z-index: 1;
 }
+.banner-left .visible__content h2{
+    color: black;
+    position: relative;
+
+}
 
 .unvisible__content {
     font-size: 100px;
@@ -203,6 +211,13 @@ header .navbar h1 :hover {
 
 .carousel-inner .wrapper {
     right: -500px;
+    position:absolute!important;
+}
+.carousel-inner .wrapper h4{
+    color: white!important;
+}
+.carousel-inner .wrapper p{
+    color: white;
 }
 
 .carousel-indicators li {
@@ -332,6 +347,7 @@ header .navbar h1 :hover {
 
 #service .title h5 {
     font-size: 22px;
+    color: white;
 }
 
 #service .title h3 {
@@ -340,6 +356,12 @@ header .navbar h1 :hover {
     line-height: 50px;
     font-weight: 600;
     bottom: -200px;
+    color: white;
+}
+#service .title p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .bg-text {
@@ -350,7 +372,7 @@ header .navbar h1 :hover {
     opacity: 0.14;
     font-size: 12vw;
     right: 20%;
-    top: -25%;
+    top: 50px;
 }
 
 .service-img img {
